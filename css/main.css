@@ -864,3 +864,63 @@ footer .inner .list li:last-child a {
         margin-left: 12%;
     }
 }
+
+
+/*414*/
+
+@media screen and (max-width:414px) {
+    header {
+        height: 60px;
+        line-height: 60px;
+    }
+    .innerHeader {
+        height: 100%;
+        line-height: 60px;
+    }
+    .innerHeader .logo {
+        padding-top: 5px;
+    }
+    section.main .mainTitle h2 {
+        font-size: 30px;
+    }
+    section.main .mainTitle p {
+        font-size: 16px;
+    }
+    section.main .mainTitle .view {
+        width: 150px;
+        font-size: 14px;
+    }
+    section .title h2 {
+        font-size: 25px;
+    }
+    section .title p {
+        font-size: 14px;
+    }
+    section.about {
+        padding: 30px 0;
+    }
+    section.about ul {
+        border-bottom: none;
+    }
+    section.about ul li a {
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        background: #fafafa;
+        margin-bottom: 10px;
+    }
+    section.about ul li a .text p.more {
+        display: none;
+    }
+    section.innovations .imgBox .inner .bottom a {
+        margin-left: 20%;
+    }
+    section.me ul.list>li {
+        padding: 20px 0 20px 45px;
+    }
+    footer .inner .address {
+        margin-left: 15%;
+    }
+    footer .inner .address li:last-child {
+        margin-left: 22%;
+    }
+}
