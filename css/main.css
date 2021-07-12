@@ -375,3 +375,62 @@ section.about ul li a .text p.more:before {
     display: block;
     border-radius: 50%;
 }
+
+
+/*section.innovations*/
+
+section.innovations {
+    margin-bottom: 150px;
+}
+
+section.innovations .imgBox {
+    width: 1400px;
+    height: 540px;
+    margin: 50px auto 0;
+    background: url(../img/product_1.jpg) no-repeat center/cover;
+    position: relative;
+}
+
+section.innovations .imgBox .inner {
+    background: #3a3c4e;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+section.innovations .imgBox .inner h3 {
+    background: #fff;
+    padding: 25px 45px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+section.innovations .imgBox .inner h3 span {
+    color: #ff8342;
+}
+
+section.innovations .imgBox .inner .bottom {
+    padding: 35px 85px;
+    box-sizing: border-box;
+    color: #fff;
+    overflow: hidden;
+    line-height: 1.6;
+}
+
+section.innovations .imgBox .inner .bottom p {
+    float: left;
+}
+
+section.innovations .imgBox .inner .bottom a {
+    float: right;
+    padding: 7px 30px;
+    background: #ff8342;
+    border-radius: 50px;
+}
+
+section.innovations .imgBox .inner .bottom a:hover,
+section.innovations .imgBox .inner .bottom a:focus {
+    background: #f86010;
+}
