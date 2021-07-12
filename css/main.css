@@ -802,3 +802,65 @@ footer .inner .list li:last-child a {
         display: none;
     }
 }
+
+
+/*768*/
+
+@media screen and (max-width:768px) {
+    section.main .mainTitle h2 {
+        font-size: 40px;
+    }
+    section.main .mainTitle p {
+        font-size: 20px;
+    }
+    section.about {
+        padding: 50px 0;
+    }
+    section.about ul li {
+        width: 100%;
+    }
+    section.innovations .imgBox .inner h3 {
+        padding: 20px;
+    }
+    section.innovations .imgBox .inner .bottom {
+        padding: 30px;
+    }
+    section.innovations .imgBox .inner .bottom p .clear {
+        display: none;
+    }
+    section.innovations .imgBox .inner .bottom p {
+        float: none;
+        margin-bottom: 30px;
+    }
+    section.innovations .imgBox .inner .bottom a {
+        float: none;
+        margin-left: 32%;
+    }
+    section.me {
+        padding: 50px 0;
+        margin-bottom: 80px;
+    }
+    section.me ul.in li em {
+        display: block;
+        float: none;
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    section.sns ul li {
+        width: 100%;
+    }
+    footer .inner .ftLogo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    footer .inner .address {
+        float: none;
+        width: 100%;
+        margin-left: 32%;
+    }
+    footer .inner .address li:last-child {
+        margin-left: 12%;
+    }
+}
