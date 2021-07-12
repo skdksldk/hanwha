@@ -760,3 +760,45 @@ footer .inner .list li:last-child a {
         right: -13px;
     }
 }
+
+
+/*1024*/
+
+@media screen and (max-width:1024px) {
+    header .innerHeader {
+        width: 95%;
+        min-width: 90%;
+    }
+    .innerHeader .gnb,
+    .innerHeader .tnb {
+        display: none;
+    }
+    .innerHeader .gnbMo {
+        display: block;
+        color: #fff;
+        font-size: 40px;
+        float: right;
+    }
+    section.main .mainTitle {
+        width: 80%;
+    }
+    section.me {
+        margin-bottom: 50px;
+    }
+    section.me ul.in li p:before {
+        left: -20px;
+    }
+    section.me ul.in li {
+        margin-bottom: 0;
+    }
+    section.me ul.list li>p {
+        margin-bottom: 10px;
+    }
+    section.sns ul li {
+        width: 32.2%;
+        margin-right: 1.7%;
+    }
+    footer .inner .list {
+        display: none;
+    }
+}
