@@ -648,3 +648,77 @@ section.sns ul li a .bottom p.time:before {
     left: 0;
     top: -3px;
 }
+
+
+/*footer*/
+
+footer {
+    clear: both;
+    border-top: 1px solid #999;
+    padding: 30px 0 50px;
+}
+
+footer .inner {
+    width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer .inner .ftLogo {
+    float: left;
+}
+
+footer .inner .address {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+footer .inner .address li:first-child {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .inner .address li:last-child {
+    color: #999;
+}
+
+footer .inner .list {
+    float: right;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 10px;
+}
+
+footer .inner .list li {
+    float: left;
+    margin-left: 80px;
+}
+
+footer .inner .list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+footer .inner .list li a:after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ccc;
+    position: absolute;
+    right: -50px;
+    top: 10px;
+}
+
+footer .inner .list li a:hover,
+footer .inner .list li a:focus {
+    color: #ff8342;
+    text-decoration: underline;
+}
+
+footer .inner .list li:last-child a {
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+}
