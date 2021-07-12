@@ -924,3 +924,56 @@ footer .inner .list li:last-child a {
         margin-left: 22%;
     }
 }
+
+
+/*320*/
+
+@media screen and (max-width:414px) {
+    br.mo {
+        display: block;
+    }
+    .wrap {
+        min-width: 320px;
+    }
+    header .innerHeader {
+        min-width: 320px;
+    }
+    .innerHeader .logo {
+        width: 140px;
+        height: auto;
+    }
+    .innerHeader .gnbMo {
+        margin-right: 10px;
+    }
+    section.main .mainTitle h2 {
+        font-size: 22px;
+    }
+    section.main .mainTitle p {
+        font-size: 14px;
+    }
+    section.about {
+        padding: 10px 0;
+    }
+    section.about ul li a .text {
+        padding: 15px;
+    }
+    section.about ul li a .text h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    section.about ul li a .text p {
+        font-size: 15px;
+    }
+    section.innovations .imgBox {
+        height: 300px;
+    }
+    section.innovations .imgBox .inner .bottom a {
+        margin-left: 18px;
+    }
+    footer .inner .address {
+        margin-left: 5%;
+    }
+    footer .inner .address li:last-child {
+        margin-left: 27%;
+    }
+}
